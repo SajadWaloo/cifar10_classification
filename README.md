@@ -36,6 +36,9 @@ The implemented CNN consists of:
 2. **Confusion Matrix:**
    ![Confusion Matrix](path-to-confusion-matrix.png)
 
+Results
+![Test Results]([Image UR](https://github.com/SajadWaloo/cifar10_classification/blob/main/Results_visual.png)L)
+
 ---
 
 ## Files in the Repository
