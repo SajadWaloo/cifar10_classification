@@ -55,3 +55,41 @@ The implemented CNN consists of:
 ```bash
 git clone https://github.com/SajadWaloo/cifar10_classification.git
 cd cifar10_classification
+
+Install Dependencies
+Ensure you have Python installed. Install required packages:
+
+bash
+Copy code
+pip install torch torchvision matplotlib pandas scikit-learn
+Run the Script
+Run the training and evaluation script:
+
+bash
+Copy code
+python cifar10_cnn.py
+Expected Output
+The script trains the model for 25 epochs and evaluates it on the test dataset.
+Test accuracy will be printed in the terminal and saved in accuracy.txt.
+Additional outputs like class-wise accuracy and confusion matrix will also be saved.
+Example Results
+Overall Accuracy: 72.72%
+Sample Class-wise Accuracy:
+Class	Accuracy (%)
+Airplane	72.30
+Automobile	80.10
+Bird	68.45
+Cat	65.90
+Deer	70.20
+Dog	70.00
+Frog	78.00
+Horse	75.80
+Ship	79.20
+Truck	74.10
+References
+CIFAR-10 Paper: Learning Multiple Layers of Features from Tiny Images
+PyTorch Documentation: PyTorch Official Docs
+License
+You can add a license here (e.g., MIT, Apache 2.0, etc.).
+
+Author: Sajad Ahmad Waloo
